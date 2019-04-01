@@ -1,0 +1,62 @@
+.photos {
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  &__item {
+    height: 80%;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item:hover {
+    border: 5px solid #FADDB2;
+  }
+
+  #bijou {
+    background-image: url("../images/bijou.jpg");
+    background-position: center;
+  }
+  #negroni {
+    background-image: url("../images/negroni.jpg");
+    background-position-x: -170px;
+    background-position-y: -35px;
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+  }
+  #mojito {
+    background-image: url("../images/mojito.jpg");
+    background-position-x: -150px;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+  }
+  #rattlesnake {
+    background-image: url("../images/rattlesnake.jpg");
+    background-size: 600px 600px;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  #eggnogg {
+    background-image: url("../images/eggnogg.jpg");
+    background-position:  top;
+  }
+  #zinger {
+    background-image: url("../images/zinger.jpg");
+    background-size: cover;
+  }
+
+  &__titles {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+    &--rattlesnake {
+      margin-left: 15;
+    }
+  }
+
+
+}

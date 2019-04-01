@@ -1,0 +1,23 @@
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  .footer__msg {
+    margin-left: 5%;
+    font-weight: lighter;
+    opacity: 0.5;
+    float: left;
+
+    &--email {
+      font-weight: normal;
+      margin-left: 5%;
+      opacity: 1;
+    }
+
+    &--follow {
+      margin-left: 65%;
+    }
+  }
+}

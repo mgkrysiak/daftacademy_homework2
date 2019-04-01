@@ -1,0 +1,28 @@
+body {
+  background-color: $body-color;
+  font-family: $font-main;
+  height: 115vh;
+  padding: 5%;
+
+
+main {
+  background-color: $background-main;
+  padding: 100px 150px 50px 150px;
+  height: 100%;
+
+  .logo {
+    height: 100px;
+    width: 150px;
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -12.5% 0 0 -12.5%;
+  }
+
+  section {
+    height: 80%;
+  }
+
+}
+
+};

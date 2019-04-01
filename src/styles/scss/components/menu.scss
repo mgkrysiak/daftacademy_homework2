@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   color: rgb(197,216,213);
+   font-weight: lighter;
+   margin-bottom: 5%;
+      &__item {
+        margin: 2%;;
+      }
+      &__item:hover {
+        color: black;
+        border-bottom: 1px solid black;
+      }
+  }

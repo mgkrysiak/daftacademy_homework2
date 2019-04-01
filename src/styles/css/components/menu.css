@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: #c5d8d5;
+  font-weight: lighter;
+  margin-bottom: 5%; }
+  .menu__item {
+    margin: 2%; }
+  .menu__item:hover {
+    color: black;
+    border-bottom: 1px solid black; }
+
+/*# sourceMappingURL=menu.css.map */
